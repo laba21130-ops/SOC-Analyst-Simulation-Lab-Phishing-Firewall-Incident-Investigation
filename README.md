@@ -36,5 +36,18 @@ Successfully completed incident investigations by validating suspicious activity
 ### Case Report
 ![Case Report](Screenshot%202026-06-07%20110928.png)
 
-### False Positive Investigation
+### True Positive Investigation
 ![False Positive](Screenshot%202026-06-07%20111838.png)
+## False Positive Investigation
+
+### URL/IP Analysis
+![URL Analysis](Screenshot%202026-06-07%20112313.png)
+
+### Alert Queue
+![Alert Queue](Screenshot%202026-06-07%20112337.png)
+
+### Case Report
+![Case Report](Screenshot%202026-06-07%20112408.png)
+
+### False Positive Incident Report
+![False Positive](Screenshot%202026-06-07%20112618.png)
