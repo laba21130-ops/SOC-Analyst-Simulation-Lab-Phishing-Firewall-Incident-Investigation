@@ -25,3 +25,16 @@ Practiced professional incident response workflows
 Project Outcome
 
 Successfully completed incident investigations by validating suspicious activity, identifying legitimate onboarding communications as false positives, and documenting findings using standard SOC reporting procedures. This project strengthened practical blue-team skills in alert analysis, threat detection, and cybersecurity reporting.
+## Screenshots
+
+### Alert Queue
+![Alert Queue](Screenshot%202026-06-07%20110409.png)
+
+### URL/IP Analysis
+![URL Analysis](Screenshot%202026-06-07%20110512.png)
+
+### Case Report
+![Case Report](Screenshot%202026-06-07%20110928.png)
+
+### False Positive Investigation
+![False Positive](Screenshot%202026-06-07%20111838.png)
