@@ -1,0 +1,45 @@
+True Positive
+
+Security Incident Report – Access to Blacklisted External URL Blocked by Firewall
+Alert Name
+Access to Blacklisted External URL Blocked by Firewall
+Alert Classification
+True Positive (TP)
+
+Executive Summary
+This alert was classified as a True Positive after investigation confirmed that a user attempted to access a malicious URL that was already identified on the organization’s blacklist and threat intelligence feeds. The firewall successfully blocked the outbound connection, preventing communication with the malicious destination.
+Further analysis using the TryDetectThis URL/IP analysis tool identified the URL as malicious, confirming that the activity represented a genuine security threat rather than normal user behavior or a false detection.
+Immediate escalation is recommended because the activity may indicate phishing interaction, malicious link execution, or attempted malware delivery from an internal host.
+Time of activity: 06/07/2026, 16:03:12
+
+List of Affected Entities: 
+•	Source Host/IP: 10.20.2.17
+•	Destination IP: 67.199.248.11
+•	URL Accessed: http://bit.ly/3sHkX3da12340
+•	Application: Web-Browsing
+•	Protocol: TCP
+•	Destination Port: 80
+•	Environment: TryHatMe
+
+
+Reason for Classifying as True Positive: This activity is classified as a True Positive because an internal host attempted to access a URL identified as malicious by organizational threat intelligence and blacklist feeds. The firewall successfully blocked the outbound connection. Further investigation using the TryDetectThis analysis platform confirmed the URL status as MALICIOUS. The activity is consistent with malicious web traffic and potential phishing or malware-related behavior.
+
+Reason for Escalating the Alert:This alert requires escalation because a corporate endpoint attempted communication with a verified malicious external resource. Although the firewall blocked the request, the event may indicate phishing interaction, malicious link execution, browser compromise, or attempted malware delivery. Additional endpoint investigation is required to determine whether the host was exposed to malicious content before the connection was blocked. 
+
+Recommended Remediation Actions: 
+•	Isolate and investigate host 10.20.2.17
+•	Perform endpoint malware and antivirus scans
+•	Review browser history and downloaded files
+•	Block associated malicious IPs and URLs across security tools
+•	Reset potentially compromised credentials
+•	Review email activity for phishing indicators
+•	Monitor for repeated outbound connection attempts
+•	Update firewall and threat intelligence signatures
+
+
+List of Attack Indicators: 
+•	Source IP: 10.20.2.17
+•	Source Port: 34257
+•	Destination IP: 67.199.248.11
+•	Destination Port: 80 
+
